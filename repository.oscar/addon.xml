@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.oscar" name="Oscar Repository" version="1.0.0" provider-name="Oscar">
+    <extension point="xbmc.addon.repository" name="Oscar Repository">
+        <dir>
+            <info compressed="false">https://oscarito1983.github.io/systemkof/addons.xml</info>
+            <checksum>https://oscarito1983.github.io/systemkof/addons.xml.md5</checksum>
+            <datadir zip="true">https://oscarito1983.github.io/systemkof/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio de Oscar para Kodi</summary>
+        <description>Contiene el buscador de torrents profesional Torrent Bridge.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
